@@ -1,0 +1,7 @@
+pandas
+pandas-profiling
+numpy
+seaborn
+matplotlib
+scikit-learn
+plotly
