@@ -5,6 +5,8 @@ import os
 import pickle
 import warnings
 
+modelfile = "./model_Logistic_Regression.pkl"
+
 def load_model(modelfile):
     loaded_model = pickle.load(open(modelfile, 'rb'))
     return loaded_model
