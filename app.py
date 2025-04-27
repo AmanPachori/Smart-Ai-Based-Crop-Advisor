@@ -15,8 +15,8 @@ def main():
     # title
     st.set_page_config(page_title="Crop Advisor", page_icon="🧑‍🌾", layout='centered', initial_sidebar_state="collapsed")
     html_temp = """
-    <div>
-    <h1 style="color:MEDIUMSEAGREEN;text-align:left;"> Smart AI-Based Crop Advisor System🧑‍🌾</h1>
+    <div>Krishak
+    <h1 style="color:MEDIUMSEAGREEN;text-align:left;"> 🧑‍🌾</h1>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
