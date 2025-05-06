@@ -15,8 +15,9 @@ def main():
     # title
     st.set_page_config(page_title="Crop Advisor", page_icon="🧑‍🌾", layout='centered', initial_sidebar_state="collapsed")
     html_temp = """
-    <div>Krishak
-    <h1 style="color:MEDIUMSEAGREEN;text-align:left;"> 🧑‍🌾</h1>
+    <div>
+    <h1 style="color:MEDIUMSEAGREEN;text-align:left;">Krishak</h1>
+    <h2 style="color:MEDIUMSEAGREEN;text-align:left;">Smart Crop Recommendation Platform</h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
@@ -26,9 +27,10 @@ def main():
     with col1:
         with st.expander(" ℹ️ Information", expanded=True):
             st.write("""
-            ## About🌿
-            The Smart AI-Powered Crop Advisory System holds immense significance within the realm of precision agriculture. It operates by deriving crop suggestions from a variety of factors. The objective of precision agriculture is to tailor these parameters to individual locations, effectively tackling the challenges of optimal crop choice. Although the approach of tailoring to specific sites has enhanced performance, continuous evaluation of system results remains imperative. Not all precision agriculture systems share equal capabilities.
-            """)
+            ## About Krishak
+Krishak, is a smart crop recommendation platform. It helps farmers by recommending the most suitable crop based on a variety of factors such as soil nutrition and environmental conditions. 
+The key feature of this platform is the focus on local adaptation, which means that the recommendations are tailored to the local environment.
+This is achieved by integrating secondary data available on web resources with the primary data collected from farmers to train the platform's ML models.            """)
         with st.expander(" ℹ️ Information", expanded=True):
              st.write('''
              ## How it works❓ 
